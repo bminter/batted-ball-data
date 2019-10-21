@@ -9,6 +9,5 @@ module.exports = {
       .use('file-loader')
       .loader('file-loader')
       .end();
-    
   },
 };

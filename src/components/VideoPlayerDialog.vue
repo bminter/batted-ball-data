@@ -18,11 +18,9 @@
       <vue-plyr ref="videoPlayer">
         <video poster="poster.png" :src="matchup.videoLink" />
       </vue-plyr>
-
-      <v-divider></v-divider>
-
+      <v-divider />
       <v-card-actions>
-        <v-spacer></v-spacer>
+        <v-spacer />
         <v-btn color="primary" text @click="isOpen = false">Close</v-btn>
       </v-card-actions>
     </v-card>
